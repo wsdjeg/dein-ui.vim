@@ -12,16 +12,10 @@ for dein.vim
 call dein#add('wsdjeg/dein-ui.vim')
 ```
 
-for vim-plug
-
-```vim
-Plug 'wsdjeg/dein-ui.vim'
-```
-
 ## usage
 
 update all plugins
 
 ```log
-:SPUpdate
+:DeinUpdate
 ```
