@@ -13,6 +13,8 @@ command! -nargs=*
             \ -complete=custom,SpaceVim#commands#complete_plugin
             \ DeinUpdate call SpaceVim#commands#update_plugin(<f-args>)
 
+let g:spacevim_plugin_manager_processes =
+      \ get(g:, 'spacevim_plugin_manager_processes', 8)
 let g:spacevim_plugin_manager_max_processes =
       \ get(g:, 'spacevim_plugin_manager_max_processes', 8)
 let g:spacevim_plugin_manager =
