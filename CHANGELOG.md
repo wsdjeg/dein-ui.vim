@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/wsdjeg/dein-ui.vim/compare/v1.0.0...v1.0.1) (2026-02-07)
+
+
+### Bug Fixes
+
+* **deinui.vim:** re-add g:spacevim_plugin_manager_processes to deinui.vim ([22e9da8](https://github.com/wsdjeg/dein-ui.vim/commit/22e9da82914b95ce0f9956267641a9cae5369d07))
+
 ## 1.0.0 (2025-10-29)
 
 
